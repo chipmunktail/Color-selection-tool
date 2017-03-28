@@ -1,0 +1,45 @@
+body{
+    background-color: #272727;
+    font-family: 'Microsoft YaHei';
+    margin: 0px;
+    padding: 0px;
+    color: aliceblue;
+}
+input[type=text]{
+    background-color: #272727;
+    border: 1px solid #272727;
+    color: aliceblue;
+}
+input[type=text]:focus{
+    border: 1px solid #272727;
+}
+
+#example{
+    text-align: center;
+}
+input[type=color]{
+    width: 300px;
+    height: 200px;
+}
+span{
+    display: inline-block;
+    width: 300px;
+    height: auto;
+    background-color: #373737;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

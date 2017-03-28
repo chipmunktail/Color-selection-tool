@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v-on="http://www.w3.org/1999/xhtml">
+<head>
+    <meta name="viewport" content="width=device-width">
+    <meta charset="UTF-8">
+    <title>vue_1</title>
+    <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+    <script type="text/javascript" src="vue.js"></script>
+
+
+    <script type="text/javascript" src="vue_1.js"></script>
+    <link rel="stylesheet" href="one.css">
+</head>
+<body>
+<!--<div id="example">-->
+    <!--<my-component></my-component>-->
+    <!--<my-component1></my-component1>-->
+<!--</div>-->
+<!--<div id="example1">-->
+    <!--<my-component></my-component>-->
+<!--</div>-->
+<!--<div id="example-2">-->
+    <!--<simple-counter></simple-counter>-->
+    <!--<simple-counter></simple-counter>-->
+    <!--<simple-counter></simple-counter>-->
+<!--</div>-->
+<div id='example'>
+    <input v-model="parentMsg" type="color">
+    <br>
+    <child v-bind:my-message="parentMsg"></child>
+</div>
+<input type='date'/>
+</body>
+</html>
